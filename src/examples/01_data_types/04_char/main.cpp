@@ -1,3 +1,5 @@
+#include "char.h"
+
 int main()
 {
 

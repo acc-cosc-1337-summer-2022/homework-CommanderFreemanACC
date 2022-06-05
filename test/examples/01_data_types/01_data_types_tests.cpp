@@ -3,6 +3,7 @@
 #include "int.h"
 #include "decimals.cpp"
 #include "char.h"
+#include "decimals.h"
 
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
@@ -19,13 +20,13 @@ TEST_CASE("Test echo variable function")
 /*test case add_to_double_1 with 0 as parameter*/
 TEST_CASE("Test add to double1 with 0 as parameter")
 {
-	//REQUIRE(add_to_double_1(0) == .9);
+	REQUIRE(add_to_double_1(0) == .9);
 }
 
 /*test case add_to_double_1 with 1 as parameter*/
-TEST_CASE("Test add to double1 with 0 as parameter")
+TEST_CASE("Test add to double1 with 1 as parameter")
 {
-	//REQUIRE(add_to_double_1(1) == 1.9);
+	REQUIRE(add_to_double_1(1) == 1.9);
 }
 /*test case add_to_double_2 with 0 as parameter*/
 
